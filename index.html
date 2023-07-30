@@ -1,25 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="designe.css">
-  <title>Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ORDER SUMMARY</title>
 </head>
-<body>
-  <img class="background"src="./images/pattern-background-desktop.svg">
-  <div class="main-container"> 
-    <img src="./images/illustration-hero.svg">
+<body> 
+  <div class="main">
+    <img class="hero" src="./images/illustration-hero.svg">
     <h1>Order Summary</h1>
-    <p1>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p1>
-  
-  
-  
+    <p class="text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    <div class="info">
+        <img class="music" src="./images/icon-music.svg">
+            <div class="flex">
+                <p class="annual-plan">Annual Plan</p> 
+                <p class="price">$59.99/year</p>
+            </div>    
+        <a href="#"class="Change">Change</a>     
+    </div>
+    <button class="payment">Proceed to Payment</button>
+    <a href="#" class="cancel">Cancel Order</a>
   </div>
+
 </body>
 </html>
